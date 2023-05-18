@@ -1,0 +1,26 @@
+#Cinema ticket booking
+print("Well come to Usha Prasad Multiplex, Nizamabad")
+print("The Movie Name : Gardians of the galaxy vol.3")
+members=int(input("Enter how many members are you come here"))
+print("The entry Ticket Prices are")
+print("1.  100/- for the Second Class ")
+print("2.  150/- for Silver")
+print("3   250/- for Gold")
+print("4.  300/- for Balcony")
+print("5.  If you do not intrest to buy the ticket")
+
+choose=int(input("Enter the Type of Ticket you want to take"))
+
+if choose==1:
+	print("The Total amount of Second Class Tickets is",members*100)
+elif choose==2:
+	print("The Total amount of Silver Tickets is",members*150)
+elif choose==3:
+	print("The Total amount of Gold Tickets is",members*250)
+elif choose==4:
+	print("The Total amount of Balcony Tickts is",members*300)
+elif choose==5:
+	print("Thank You for coming Ush prasad Multiplex")
+else:
+	print("invalid choice,  please enter the valid choice")
+print("Thanks to see my code Aety Ritesh")
